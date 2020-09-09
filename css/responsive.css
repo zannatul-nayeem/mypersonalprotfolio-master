@@ -1,0 +1,415 @@
+@media(max-width: 449px) {}
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+
+@media (min-width: 450px) and (max-width: 575.98px) {
+    #header-part {
+        height: 80vh;
+        padding: 15px 0px 0px 0px;
+    }
+    .top-banner-content .top-banner-content-title {
+        font-size: 35px;
+    }
+    .top-banner-content {
+        padding: 120px 0px 0px 0px;
+    }
+    .top-banner-content .top-banner-content-title::before {
+        left: 115px;
+        top: 104px;
+        width: 217px;
+    }
+    .top-banner-content .top-banner-content-title::after {
+        left: 116px;
+        bottom: 49px;
+        width: 217px;
+    }
+    .top-banner-content>p {
+        font-size: 15px;
+        margin-top: 30px;
+    }
+    .about-part-content {
+        text-align: center;
+    }
+    #what-ido-part {
+        margin-top: 80px;
+    }
+    .what-ido-part-content .what-ido-part-content-title {
+        font-size: 28px;
+    }
+    .what-ido-part-content .what-ido-part-content-sub-title {
+        font-size: 13px;
+        padding-bottom: 10px;
+    }
+    .bg-what-ido-part-bottom-item-one {
+        margin-bottom: 10px;
+    }
+    .bg-what-ido-part-bottom-item-two {
+        margin-bottom: 10px;
+    }
+    .bg-what-ido-part-bottom-item-three {
+        margin-bottom: 10px;
+    }
+    .mb-s {
+        margin-bottom: 10px;
+    }
+    .contact-part-leftside>h2 {
+        font-size: 31px;
+    }
+    .about-part-content .about-part-content-title {
+        font-size: 11px;
+    }
+    .about-part-content>p {
+        font-size: 12px;
+    }
+    .about-part-btn {
+        padding: 6px 107px;
+        margin-top: 8px;
+    }
+    .what-ido-part-bottom-item>h5 {
+        font-size: 15px;
+        padding-top: 15px;
+    }
+    .exprience-part-content .exprience-part-content-title {
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+    .exprience-part-content .exprience-part-content-sub-title {
+        font-size: 14px;
+        padding-bottom: 7px;
+    }
+    .exprience-part-content .exprience-part-content-date {
+        line-height: 0px;
+        font-size: 12px;
+    }
+    .exprience-part-content .exprience-part-content-description {
+        font-size: 11px;
+        padding-bottom: 11px;
+    }
+    .exprience-part-content-bottom .exprience-part-content-bottom-sub-title {
+        font-size: 13px;
+        padding-bottom: 3px;
+    }
+    .exprience-part-content-bottom .exprience-part-content-bottom-date {
+        font-size: 10px;
+    }
+    .exprience-part-content-bottom .exprience-part-content-bottom-description {
+        font-size: 10px;
+    }
+    #protfolio-part {
+        padding: 30px 0px;
+        text-align: center;
+    }
+    .protfolio-part-top-content>h2 {
+        font-size: 40px;
+    }
+    .protfolio-part-top-content>p {
+        font-size: 14px;
+    }
+    #signature-part {
+        text-align: center;
+    }
+    .signature-part-content>i {
+        font-size: 45px;
+        padding-bottom: 20px;
+    }
+    .signature-part-content .signature-part-content-description {
+        font-size: 12px;
+        padding-right: 0px;
+        padding-bottom: 10px;
+    }
+    #contact-part {
+        padding: 80px 0px;
+        text-align: center;
+    }
+    .contact-part-leftside {
+        background: #64657d;
+        padding: 17px 16px;
+    }
+    .btn-contact {
+        padding: 8px 165px;
+        margin-top: 10px;
+    }
+    .contact-part-leftside {
+        margin-bottom: 20px;
+    }
+    .contact-part-info-content .contact-part-info-content-item .bg-colo {
+        padding: 23px 20px;
+        margin-bottom: 4px;
+    }
+    .contact-part-info-content .contact-part-info-content-item .bg-colo>p {
+        font-size: 10px;
+    }
+    .contact-part-info-content .contact-part-info-content-item .bg-colo>h2 {
+        font-size: 25px;
+        padding-bottom: 3px;
+    }
+    .contact-part-leftside>h2 {
+        font-size: 25px;
+        padding-bottom: 15px;
+    }
+    .form-group {
+        margin-bottom: 5px;
+    }
+}
+
+
+/*Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #header-part {
+        height: 80vh;
+        padding: 15px 0px 0px 0px;
+    }
+    .top-banner-content .top-banner-content-title {
+        font-size: 35px;
+    }
+    .top-banner-content {
+        padding: 120px 0px 0px 0px;
+    }
+    .top-banner-content .top-banner-content-title::before {
+        left: 25px;
+        top: 104px;
+        width: 217px;
+    }
+    .top-banner-content .top-banner-content-title::after {
+        left: 25px;
+        bottom: 71px;
+        width: 217px;
+    }
+    .top-banner-content>p {
+        font-size: 15px;
+        margin-top: 30px;
+    }
+    #what-ido-part {
+        margin-top: 80px;
+    }
+    .bg-what-ido-part-bottom-item-one {
+        margin-bottom: 10px;
+    }
+    .bg-what-ido-part-bottom-item-two {
+        margin-bottom: 10px;
+    }
+    .contact-part-leftside>h2 {
+        font-size: 31px;
+    }
+    .about-part-content .about-part-content-title {
+        font-size: 11px;
+    }
+    .about-part-content>p {
+        font-size: 12px;
+    }
+    .about-part-btn {
+        padding: 6px 107px;
+        margin-top: 8px;
+    }
+    .what-ido-part-bottom-item>h5 {
+        font-size: 15px;
+        padding-top: 15px;
+    }
+    .exprience-part-content .exprience-part-content-title {
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+    .exprience-part-content .exprience-part-content-sub-title {
+        font-size: 14px;
+        padding-bottom: 7px;
+    }
+    .exprience-part-content .exprience-part-content-date {
+        line-height: 0px;
+        font-size: 12px;
+    }
+    .exprience-part-content .exprience-part-content-description {
+        font-size: 11px;
+        padding-bottom: 11px;
+    }
+    .exprience-part-content-bottom .exprience-part-content-bottom-sub-title {
+        font-size: 13px;
+        padding-bottom: 3px;
+    }
+    .exprience-part-content-bottom .exprience-part-content-bottom-date {
+        font-size: 10px;
+    }
+    .exprience-part-content-bottom .exprience-part-content-bottom-description {
+        font-size: 10px;
+    }
+    #protfolio-part {
+        padding: 30px 0px;
+    }
+    .protfolio-part-top-content>h2 {
+        font-size: 40px;
+    }
+    .protfolio-part-top-content>p {
+        font-size: 14px;
+    }
+    .signature-part-content>i {
+        font-size: 45px;
+        padding-bottom: 20px;
+    }
+    .signature-part-content .signature-part-content-description {
+        font-size: 12px;
+        padding-right: 0px;
+        padding-bottom: 10px;
+    }
+    #contact-part {
+        padding: 80px 0px;
+    }
+    .contact-part-leftside {
+        background: #64657d;
+        padding: 17px 16px;
+    }
+    .btn-contact {
+        padding: 8px 75px;
+        margin-top: 10px;
+    }
+    .contact-part-info-content .contact-part-info-content-item .bg-colo {
+        padding: 23px 20px;
+        margin-bottom: 4px;
+    }
+    .contact-part-info-content .contact-part-info-content-item .bg-colo>p {
+        font-size: 10px;
+    }
+    .contact-part-info-content .contact-part-info-content-item .bg-colo>h2 {
+        font-size: 25px;
+        padding-bottom: 3px;
+    }
+    .contact-part-leftside>h2 {
+        font-size: 25px;
+        padding-bottom: 15px;
+    }
+    .form-group {
+        margin-bottom: 5px;
+    }
+}
+
+
+/*Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #header-part {
+        height: 80vh;
+        padding: 15px 0px 0px 0px;
+    }
+    .top-banner-content .top-banner-content-title {
+        font-size: 50px;
+    }
+    .top-banner-content {
+        padding: 120px 0px 0px 0px;
+    }
+    .top-banner-content .top-banner-content-title::before {
+        left: 28px;
+        top: 106px;
+        width: 301px;
+    }
+    .top-banner-content .top-banner-content-title::after {
+        left: 27px;
+        bottom: 50px;
+        width: 303px;
+    }
+    .top-banner-content>p {
+        font-size: 15px;
+        margin-top: 30px;
+    }
+    #what-ido-part {
+        margin-top: 80px;
+    }
+    .contact-part-leftside>h2 {
+        font-size: 31px;
+    }
+    .about-part-content .about-part-content-title {
+        font-size: 16px;
+    }
+    .about-part-content>p {
+        font-size: 14px;
+    }
+    .about-part-btn {
+        margin-top: 15px;
+    }
+    .what-ido-part-bottom-item>h5 {
+        font-size: 15px;
+        padding-top: 15px;
+    }
+    .exprience-part-content .exprience-part-content-title {
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+    .exprience-part-content .exprience-part-content-sub-title {
+        font-size: 18px;
+    }
+    .exprience-part-content .exprience-part-content-date {
+        line-height: 5px;
+    }
+    .exprience-part-content .exprience-part-content-description {
+        font-size: 13px;
+        padding-bottom: 20px;
+    }
+    .exprience-part-content-bottom .exprience-part-content-bottom-sub-title {
+        font-size: 18px;
+    }
+    .exprience-part-content-bottom .exprience-part-content-bottom-date {
+        font-size: 13px;
+    }
+    .exprience-part-content-bottom .exprience-part-content-bottom-description {
+        font-size: 13px;
+    }
+    .signature-part-content .signature-part-content-description {
+        font-size: 14px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+    }
+    #contact-part {
+        padding: 80px 0px;
+    }
+    .contact-part-info-content .contact-part-info-content-item .bg-colo>p {
+        font-size: 10px;
+    }
+    .contact-part-info-content .contact-part-info-content-item .bg-colo>h2 {
+        font-size: 25px;
+        padding-bottom: 3px;
+    }
+    .contact-part-leftside>h2 {
+        font-size: 25px;
+        padding-bottom: 15px;
+    }
+    .form-group {
+        margin-bottom: 5px;
+    }
+}
+
+
+/*Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #header-part {
+        height: 80vh;
+        padding: 15px 0px 0px 0px;
+    }
+    .top-banner-content {
+        padding: 120px 0px 0px 0px;
+    }
+    .top-banner-content .top-banner-content-title::before {
+        left: 33px;
+        top: 106px;
+    }
+    .top-banner-content .top-banner-content-title::after {
+        left: 32px;
+        bottom: 66px;
+    }
+    #what-ido-part {
+        margin-top: 80px;
+    }
+    .contact-part-leftside>h2 {
+        font-size: 31px;
+    }
+    .contact-part-info-content .contact-part-info-content-item .bg-colo>h2 {
+        font-size: 30px;
+    }
+    .contact-part-info-content .contact-part-info-content-item .bg-colo>p {
+        font-size: 16px;
+    }
+    .form-group {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 1200px) {}

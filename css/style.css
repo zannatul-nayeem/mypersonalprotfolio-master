@@ -1,0 +1,454 @@
+/*Basic Css Start*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    border: 0;
+    cursor: pointer;
+}
+
+p {
+    line-height: 150%;
+}
+
+clear {
+    overflow: hidden;
+}
+
+
+/*Basic Css End*/
+
+
+/*header Css start*/
+
+#header-part {
+    background: url(../img/banner-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 40px 0px 0px 0px;
+}
+
+#header-part::after {
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba();
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: none;
+}
+
+.navbar-light .navbar-toggler-icon>i {
+    font-size: 28px;
+    color: #ffffff;
+}
+
+.navbar-light .navbar-toggler {
+    border: 1px solid #ffffff;
+    padding: 6px 6px;
+    border-radius: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff !important;
+}
+
+
+/* banner top content */
+
+.top-banner-content {
+    padding: 200px 0px 0px 0px;
+}
+
+.top-banner-content .top-banner-content-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 70px;
+    font-weight: 900;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+
+.top-banner-content .top-banner-content-title::before {
+    position: absolute;
+    left: 76px;
+    top: 184px;
+    content: '';
+    width: 414px;
+    height: 3px;
+    background: #99b4be;
+}
+
+.top-banner-content .top-banner-content-title::after {
+    position: absolute;
+    left: 76px;
+    bottom: 70px;
+    content: '';
+    width: 414px;
+    height: 3px;
+    background: #99b4be;
+}
+
+.top-banner-content>p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    color: #ffffff;
+    margin-top: 40px;
+}
+
+
+/*header Css End*/
+
+#about-part {
+    margin-top: 80px;
+}
+
+.about-part-content .about-part-content-title {
+    font-family: 'Roboto', bold;
+    font-weight: 800;
+    font-size: 20px;
+    color: #737373;
+}
+
+.about-part-content>p {
+    font-family: 'Roboto', normal;
+    font-size: 16px;
+    color: #737373;
+}
+
+.about-part-btn {
+    background: #ff2b4a;
+    padding: 6px 60px;
+    color: #ffffff;
+    border-radius: 0;
+    margin-top: 40px;
+}
+
+.about-part-btn:hover {
+    color: #ffffff;
+}
+
+
+/*what i do Css start*/
+
+#what-ido-part {
+    margin-bottom: 80px;
+}
+
+.what-ido-part-content .what-ido-part-content-title {
+    font-family: 'Raleway', bold;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.what-ido-part-content .what-ido-part-content-sub-title {
+    font-family: 'Raleway', medium;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+.bg-what-ido-part-bottom-item-one {
+    background: #10c6fc;
+    padding: 90px 30px;
+}
+
+.bg-what-ido-part-bottom-item-two {
+    background: #835aeb;
+    padding: 90px 30px;
+}
+
+.bg-what-ido-part-bottom-item-three {
+    background: #002453;
+    padding: 90px 30px;
+}
+
+.bg-what-ido-part-bottom-item-four {
+    background: #ff2b4a;
+    padding: 90px 30px;
+}
+
+.what-ido-part-bottom-item>i {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.what-ido-part-bottom-item>h5 {
+    font-size: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+
+/*what i do part end*/
+
+
+/*exprience Css start*/
+
+#exprience-part {
+    padding: 60px 0px;
+    background: url(../img/banner-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.exprience-part-content {
+    background: #5f657e;
+    color: #ffffff;
+    padding: 50px 40px;
+}
+
+.exprience-part-content .exprience-part-content-title {
+    font-family: 'Raleway', bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding-bottom: 40px;
+}
+
+.exprience-part-content .exprience-part-content-sub-title {
+    font-family: 'Roboto', bold;
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: capitalize;
+    padding-bottom: 16px;
+}
+
+.exprience-part-content .exprience-part-content-date {
+    font-family: 'Roboto', bold;
+    font-size: 18px;
+    text-transform: capitalize;
+    line-height: 5px;
+    color: #b5bcc5;
+}
+
+.exprience-part-content .exprience-part-content-description {
+    font-family: 'Roboto', normal;
+    font-size: 15px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #778497;
+    color: #b5bcc5;
+}
+
+.exprience-part-content-bottom .exprience-part-content-bottom-sub-title {
+    font-family: 'Roboto', bold;
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: capitalize;
+    padding-bottom: 16px;
+}
+
+.exprience-part-content-bottom .exprience-part-content-bottom-date {
+    font-family: 'Roboto', bold;
+    font-size: 18px;
+    text-transform: capitalize;
+    line-height: 5px;
+    color: #b5bcc5;
+}
+
+.exprience-part-content-bottom .exprience-part-content-bottom-description {
+    font-family: 'Roboto', normal;
+    font-size: 15px;
+    color: #b5bcc5;
+}
+
+
+/*exprience part end */
+
+
+/*protfolio Css start*/
+
+#protfolio-part {
+    padding: 80px 0px;
+}
+
+.protfolio-part-top-content>h2 {
+    font-family: 'Raleway', bold;
+    font-size: 45px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+.protfolio-part-top-content>p {
+    font-family: 'Raleway', medium;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+
+
+/*protfolio part end*/
+
+
+/*about Css start*/
+
+#signature-part {
+    background: #64cbc0;
+    padding: 60px 0px;
+}
+
+.signature-part-img>img {
+    width: 320px;
+}
+
+.signature-part-content>i {
+    font-size: 55px;
+    color: #317688;
+    padding-bottom: 30px;
+}
+
+.signature-part-content .signature-part-content-description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    color: #317688;
+}
+
+.signature-part-content-name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    padding-top: 20px;
+    color: #317688;
+}
+
+.signature-part-content-cat {
+    font-family: 'Roboto', normals;
+    font-size: 16px;
+    color: #317688;
+}
+
+
+/*about part end*/
+
+
+/*contact Css start*/
+
+#contact-part {
+    background: url(../img/main-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 140px 0px;
+}
+
+.contact-part-leftside {
+    background: #64657d;
+    padding: 30px 40px;
+}
+
+.contact-part-leftside>h2 {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 33px;
+    font-weight: 800;
+    padding-bottom: 40px;
+}
+
+.form-group {
+    margin-bottom: 23px;
+}
+
+.form-group .form-control {
+    background: none;
+}
+
+.form-group .form-control::placeholder {
+    color: #fff;
+    background: none;
+}
+
+.btn-contact {
+    padding: 8px 88px;
+    color: #ffffff;
+    background: #ff2b4a;
+    margin-top: 15px;
+}
+
+.btn-contact:hover {
+    color: #fff;
+}
+
+.contact-part-info-content .contact-part-info-content-item .bg-colo {
+    background: #64657d;
+    padding: 30px 40px;
+    margin-bottom: 7px;
+}
+
+.contact-part-info-content .contact-part-info-content-item .bg-colo>h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 33px;
+    font-weight: 800;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.contact-part-info-content .contact-part-info-content-item .bg-colo>p {
+    font-family: 'Roboto', normal;
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+
+/*contact part end */
+
+
+/*footer Css start*/
+
+#footer-part {
+    background: #222222;
+    padding: 40px 0px;
+}
+
+.footer-social>ul>li {
+    color: #ffffff;
+}
+
+.footer-social>ul>li>a>i {
+    color: #ffffff;
+}
+
+.footer-social>ul>li>a>i:hover {
+    color: #ff2b4a;
+}
+
+.footer-copyright>p {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+
+/*footer part end*/
+
+
+/*    font-family: 'Raleway', sans-serif;
+
+    font-family: 'Roboto', sans-serif;*/
